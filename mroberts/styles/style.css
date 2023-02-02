@@ -1,0 +1,42 @@
+
+
+
+p {
+    /* color: white; */
+}
+
+main{
+    background-color:#fcfbfb;
+    font-family: Nunito, Helvetica, sans-serif;
+    margin: 0;
+    font-size: 22px;
+    padding: 0;
+}
+
+.background{
+    background-size: cover; 
+    background-position: center center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer .social img  {
+    padding-top: 15px;
+    border: 0px;
+    width: 25px;
+    display:inline-block;
+} 
