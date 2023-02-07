@@ -5,15 +5,15 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #357266   ;
-  --secondary-color: #fcfbfb ;
-  --accent1-color: #323031;
+  --primary-color: #323031   ;
+  --secondary-color: #357266;
+  --accent1-color:#fcfbfb  ;
   --accent2-color: #DB3834;
   --accent3-color: #FFC857;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "IM Fell French Canon SC";
-  --paragraph-font: Lato, Helvetica, sans-serif;
+  --heading-font: Montserrat, Helvetica, sans-serif;
+  --paragraph-font: "IBM Plex Mono", Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: #357266 ;  /* headlines on a white background */ 
