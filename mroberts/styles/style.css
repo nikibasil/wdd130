@@ -61,9 +61,43 @@ nav a:hover {
   padding-right: 25px;
 }
 
+#grid-portfolio{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-template-rows:1fr 4fr; */
+}
 
+#grid-portfolio img{
+  width:100%;
+  /* margin: 10px; */
 
+}
 
+/* portfolio */
+.row1{
+  text-align: center;
+  margin:40px;
+}
+
+/* section .row2{
+  grid-row:2/5;
+} */
+.aside-left{
+  grid-column: 1/2;
+  margin:30px;
+}
+
+main{
+  grid-column:2/3;
+  margin:30px;
+
+}
+
+.aside-right{
+  grid-column: 3/4;
+  margin:30px;
+
+}
 .me {
   position: absolute;
   top: 17px;
@@ -87,7 +121,27 @@ nav a:hover {
   font-size: 20px;
 }
 
+h2{
+  font-family: 'IBM Plex Mono', Helvetica, sans-serif;
+  font-size:1em;
+}
 
+h1{
+  font-family: Montserrat, Helvetica, sans-serif;
+  font-size: 2em;
+}
+
+h3{
+  font-family: Montserrat, Helvetica, sans-serif;
+  font-size:1.5em;
+  text-align: center;
+  color:#DB3834;
+}
+h4{
+  font-family: Montserrat, Helvetica, sans-serif;
+  font-size:1em;
+  text-align: center;
+}
 
 .background {
   /* background-size: contain; */
