@@ -27,7 +27,7 @@ section {
   position: relative; /* since some child is absolute */
   height: 110px;
   /* background-color: #DB3834; */
-  background-image: url(/mroberts/images/banner.webp);
+  background-image: url(https://raw.githubusercontent.com/nikibasil/wdd130/81422d81fb57f478e6a179fb2936ebcdf52a096f/mroberts/images/banner.webp);
 }
 
 .card-img {
