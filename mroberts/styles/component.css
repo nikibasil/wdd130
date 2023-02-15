@@ -1,0 +1,25 @@
+ 
+ @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&family=IBM+Plex+Sans&family=Montserrat:wght@400;600&family=Open+Sans&display=swap');
+ /* Container holding the image and the text */
+ .container {
+    position: relative;
+  }
+  
+  /* Bottom right text */
+  .text-block {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #DB3834;
+    font-family: Montserrat, Helvetica, sans-serif ;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+  } 
+
+  h4{
+    font-size: 25px;
+  }
+  p{
+    font-size: 15px;
+  }
